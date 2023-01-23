@@ -1,30 +1,69 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <HomeView />
 </template>
 
+<script>
+import HomeView from "./views/HomeView.vue";
+export default {
+  name: "App",
+  components: { HomeView },
+};
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+/* utilities */
+:root {
+  --dark-color: #000036;
+  --secondary-color: #282162;
+  --primary-color: #7562e0;
+  --grayish: #848191;
+  --whitish: #f5f5f5;
 
-nav {
-  padding: 30px;
+  /* fonts */
+  --poppins: "Poppins", sans-serif;
+  --playfair: "DM Serif Display", serif;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+body {
+  background-color: var(--dark-color);
+  font-family: var(--poppins);
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+.text-gradient-gold {
+  background: hsla(42, 65%, 41%, 1);
+  background: linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AE8625", endColorstr="#F7EF8A", GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-gradient-gold {
+  background: hsla(42, 65%, 41%, 1);
+  background: linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AE8625", endColorstr="#F7EF8A", GradientType=1 );
 }
 </style>

@@ -1,0 +1,59 @@
+<template>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand fs-3 text-gradient-gold" href="#">Ariyibi.B</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fs-5 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#">Drop me message</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {
+  name: "NavBar",
+};
+</script>
+
+<style scoped>
+.navbar {
+  background: transparent !important;
+}
+.navbar-brand {
+  font-weight: bolder;
+  color: var(--primary-color);
+  font-family: var(--playfair);
+}
+.active {
+  color: var(--primary-color) !important;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+</style>
