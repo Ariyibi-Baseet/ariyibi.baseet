@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col-md-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
+          <div class="skills-wrapper p-4 rounded bg-gradient-gold">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
               <font-awesome-icon icon="fa-brands fa-js" class="js-icon" />
