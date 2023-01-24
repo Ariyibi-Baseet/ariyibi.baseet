@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand fs-3 text-gradient-gold" href="#">Ariyibi.B</a>
       <button
@@ -22,7 +22,7 @@
             <a class="nav-link fs-5" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Projects</a>
+            <a class="nav-link fs-5" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5" href="#">Drop me message</a>
@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background: transparent !important;
+  background: var(--dark-color) !important;
 }
 .navbar-brand {
   font-weight: bolder;

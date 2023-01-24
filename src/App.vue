@@ -16,11 +16,22 @@ export default {
   --secondary-color: #282162;
   --primary-color: #7562e0;
   --grayish: #848191;
+  --grayish-white: rgba(132, 129, 145, 0.52);
   --whitish: #f5f5f5;
+  --html: #f06529;
+  --css: #2965f1;
+  --laravel: #fb503b;
+  --bootstrap: #724caa;
+  --javascript: #f0db4f;
+  --vue: #42b883;
 
   /* fonts */
   --poppins: "Poppins", sans-serif;
   --playfair: "DM Serif Display", serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 body {
   background-color: var(--dark-color);
@@ -48,7 +59,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .btn-gradient-gold {
-  background: hsla(42, 65%, 41%, 1);
+  background: #ad8425;
   background: linear-gradient(
     135deg,
     hsla(42, 65%, 41%, 1) 0%,
