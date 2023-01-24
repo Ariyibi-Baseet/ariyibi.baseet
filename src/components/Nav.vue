@@ -25,7 +25,7 @@
             <a class="nav-link fs-5" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Drop me message</a>
+            <a class="nav-link fs-5" href="#contact">Drop me message</a>
           </li>
         </ul>
       </div>
