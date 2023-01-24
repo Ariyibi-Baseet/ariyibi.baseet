@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col-md-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded btn-gradient-gold">
+          <div class="skills-wrapper p-4 rounded btn-gradient-gold js-area">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
               <font-awesome-icon icon="fa-brands fa-js" class="js-icon" />
@@ -542,5 +542,24 @@ export default {
 }
 ::placeholder {
   color: gray;
+}
+.js-area {
+  background: #ad8425;
+  background: linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(42, 65%, 41%, 1) 0%,
+    hsla(56, 87%, 75%, 1) 94%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AE8625", endColorstr="#F7EF8A", GradientType=1 );
 }
 </style>
