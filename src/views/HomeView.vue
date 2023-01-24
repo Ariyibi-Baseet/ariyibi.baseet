@@ -44,8 +44,8 @@
             <p class="text-gradient-gold">2+</p>
           </div>
           <p class="text-white">
-            Years of experience. Specialised in building apps, while ensuring a seamless
-            web experience for end users.
+            Years of experience. Specialised in building websites and web apps, while
+            ensuring a seamless web experience for end users.
           </p>
         </div>
       </div>
