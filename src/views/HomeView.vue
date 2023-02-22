@@ -12,7 +12,7 @@
               end-users.
             </p>
             <div class="button-group">
-              <button class="btn btn-block fs-5 about-me-btn">About me</button>
+              <button class="btn btn-block fs-5 get-started-btn">Get Started</button>
               <button class="btn btn-block fs-5 ms-2 dwn-resume-btn">
                 Download my CV/Resume
               </button>
@@ -367,14 +367,14 @@ export default {
   font-family: var(--playfair);
   letter-spacing: 2px;
 }
-.about-me-btn,
+.get-started-btn,
 .dwn-resume-btn {
   color: #ad8425;
   background-color: transparent;
   border: 2px solid hsla(42, 65%, 41%, 1);
   transition: all 300ms ease-in;
 }
-.about-me-btn:hover,
+.get-started-btn:hover,
 .dwn-resume-btn:hover {
   color: var(--dark-color);
   background: hsla(42, 65%, 41%, 1);
