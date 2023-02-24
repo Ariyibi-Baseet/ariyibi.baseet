@@ -36,6 +36,7 @@ html {
 body {
   background-color: var(--dark-color);
   font-family: var(--poppins);
+  overflow-x: hidden;
 }
 .text-gradient-gold {
   background: hsla(42, 65%, 41%, 1);

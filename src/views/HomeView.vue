@@ -3,16 +3,22 @@
   <header id="header">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 d-flex align-items-center content-area">
+        <div
+          class="col-12 col-md-12 col-lg-6 d-flex align-items-center content-area"
+        >
           <div class="content">
             <span class="text-white fs-6">Hello, i'm</span>
-            <h2 class="fw-bold fs-1 dev-name text-gradient-gold">Ariyibi Baseet A.</h2>
-            <p class="text-white fs-5">
-              Result-Driven Frontend Engineer. I create seamless web experiences for
-              end-users.
+            <h2 class="fw-bold fs-1 dev-name text-gradient-gold">
+              Ariyibi Baseet A.
+            </h2>
+            <p class="text-white fs-5 animate__animated animate__bounce">
+              Result-Driven Frontend Engineer. I create seamless web experiences
+              for end-users.
             </p>
             <div class="button-group">
-              <button class="btn btn-block fs-5 get-started-btn">Get Started</button>
+              <button class="btn btn-block fs-5 get-started-btn">
+                Get Started
+              </button>
               <button class="btn btn-block fs-5 ms-2 dwn-resume-btn">
                 Download my CV/Resume
               </button>
@@ -20,10 +26,14 @@
           </div>
         </div>
         <div
-          class="col-md-6 d-flex align-items-center justify-content-end d-none d-md-flex"
+          class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-end d-none d-md-none d-lg-flex"
         >
           <div class="image">
-            <img :src="headerImg" alt="" />
+            <img
+              :src="headerImg"
+              alt=""
+              class="animate__animated animate__fadeInRight"
+            />
           </div>
         </div>
       </div>
@@ -34,25 +44,25 @@
       <div class="col-12">
         <h2 class="about-me text-gradient-gold fw-bold">About me:</h2>
         <p class="text-white">
-          A Technically-astute frontend web developer eager to contribute to team success
-          through smart work, attention to details and excellent organizational skills.
-          Confident in writing scalable code that are well structured, reliable and also
-          user-friendly.
+          A Technically-astute frontend web developer eager to contribute to
+          team success through smart work, attention to details and excellent
+          organizational skills. Confident in writing scalable code that are
+          well structured, reliable and also user-friendly.
         </p>
         <div class="col-12 d-flex align-items-center experience-wrapper">
           <div class="experience">
             <p class="text-gradient-gold">2+</p>
           </div>
           <p class="text-white">
-            Years of experience. Specialised in building websites and web apps, while
-            ensuring a seamless web experience for end users.
+            Years of experience. Specialised in building websites and web apps,
+            while ensuring a seamless web experience for end users.
           </p>
         </div>
       </div>
 
       <!-- skills section -->
       <div class="row">
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
@@ -62,7 +72,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
@@ -72,17 +82,19 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
               <font-awesome-icon icon="fa-brands fa-js" class="js-icon" />
               <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">javascript</span>
+              <span class="text-uppercase fs-5 text-white fw-bold"
+                >javascript</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
@@ -94,17 +106,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-bootstrap" class="bootstrap-icon" />
+              <font-awesome-icon
+                icon="fa-brands fa-bootstrap"
+                class="bootstrap-icon"
+              />
               <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">Bootstrap</span>
+              <span class="text-uppercase fs-5 text-white fw-bold"
+                >Bootstrap</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
@@ -112,13 +129,18 @@
                 icon="fa-brands fa-git-alt"
                 class="git-icon"
               />&nbsp;&nbsp;
-              <font-awesome-icon icon="fa-brands fa-github" class="github-icon" />
+              <font-awesome-icon
+                icon="fa-brands fa-github"
+                class="github-icon"
+              />
               <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">git and github</span>
+              <span class="text-uppercase fs-5 text-white fw-bold"
+                >git and github</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
@@ -135,17 +157,24 @@
                 ></path>
               </svg>
               <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">tailwindcss</span>
+              <span class="text-uppercase fs-5 text-white fw-bold"
+                >tailwindcss</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-3 p-4 skills-card">
+        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
           <div class="skills-wrapper p-4 rounded">
             <img :src="skillCardImg" alt="" class="bg-skills" />
             <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-laravel" class="laravel-icon" />
+              <font-awesome-icon
+                icon="fa-brands fa-laravel"
+                class="laravel-icon"
+              />
               <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">Laravel blade</span>
+              <span class="text-uppercase fs-5 text-white fw-bold"
+                >Laravel blade</span
+              >
             </div>
           </div>
         </div>
@@ -155,28 +184,34 @@
   <section id="projects" class="pt-5">
     <div class="container">
       <div class="col-12">
-        <h2 class="project-head text-gradient-gold fw-bold">Featured projects:</h2>
+        <h2 class="project-head text-gradient-gold fw-bold">
+          Featured projects:
+        </h2>
         <p class="text-white">
-          I have worked on many projects over the course of being a Web Developer, here
-          are a few of my live, real-world projects
+          I have worked on many projects over the course of being a Web
+          Developer, here are a few of my live, real-world projects
         </p>
         <!-- skills section -->
         <div class="row">
-          <div class="col-md-4 p-4 project-card">
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
             <div class="project-wrapper p-4 rounded">
               <div class="image-area">
                 <img :src="portfolioImg" alt="" class="rounded" />
               </div>
-              <p class="project-title fw-bolder text-gradient-gold text-uppercase mt-2">
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
                 my portfolio
               </p>
               <p class="project-description text-white">
-                This is my portfolio site, here you can contact me, hire me for a project,
-                and find link to my live project.
+                This is my portfolio site, here you can contact me, hire me for
+                a project, and find link to my live project.
               </p>
               <div class="btn-wrapper">
                 <a href="https://ariyibi-baseet-online-portfolio.netlify.app/"
-                  ><button class="btn btn-block live-demo-btn btn-gradient-gold">
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
                     Live Demo
                     <font-awesome-icon icon="fa-solid fa-share" /></button
                 ></a>
@@ -187,8 +222,14 @@
                 >
               </div>
               <div class="stack-used mt-3">
-                <font-awesome-icon icon="fa-brands fa-html5" class="fs-3 html-logo" />
-                <font-awesome-icon icon="fa-brands fa-css3" class="fs-3 ms-2 css-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
                 <font-awesome-icon
                   icon="fa-brands fa-js"
                   class="fs-3 ms-2 javascript-logo"
@@ -197,25 +238,32 @@
                   icon="fa-brands fa-bootstrap"
                   class="fs-3 ms-2 bootstrap-logo"
                 />
-                <font-awesome-icon icon="fa-brands fa-vuejs" class="fs-3 ms-2 vue-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-vuejs"
+                  class="fs-3 ms-2 vue-logo"
+                />
               </div>
             </div>
           </div>
-          <div class="col-md-4 p-4 project-card">
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
             <div class="project-wrapper p-4 rounded">
               <div class="image-area">
                 <img :src="greonImg" alt="" class="rounded" />
               </div>
-              <p class="project-title fw-bolder text-gradient-gold text-uppercase mt-2">
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
                 greon
               </p>
               <p class="project-description text-white">
-                I buiild a working site for Grasscutter and Rabbit Empire of Nigeria to
-                manage all about Rabbitry
+                I buiild a working site for Grasscutter and Rabbit Empire of
+                Nigeria to manage all about Rabbitry
               </p>
               <div class="btn-wrapper">
                 <a href="https://greon.netlify.app/"
-                  ><button class="btn btn-block live-demo-btn btn-gradient-gold">
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
                     Live Demo
                     <font-awesome-icon icon="fa-solid fa-share" /></button
                 ></a>
@@ -226,8 +274,14 @@
                 >
               </div>
               <div class="stack-used mt-3">
-                <font-awesome-icon icon="fa-brands fa-html5" class="fs-3 html-logo" />
-                <font-awesome-icon icon="fa-brands fa-css3" class="fs-3 ms-2 css-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
                 <font-awesome-icon
                   icon="fa-brands fa-js"
                   class="fs-3 ms-2 javascript-logo"
@@ -236,37 +290,51 @@
                   icon="fa-brands fa-bootstrap"
                   class="fs-3 ms-2 bootstrap-logo"
                 />
-                <font-awesome-icon icon="fa-brands fa-vuejs" class="fs-3 ms-2 vue-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-vuejs"
+                  class="fs-3 ms-2 vue-logo"
+                />
               </div>
             </div>
           </div>
-          <div class="col-md-4 p-4 project-card">
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
             <div class="project-wrapper p-4 rounded">
               <div class="image-area">
                 <img :src="GithubRepoListImg" alt="" class="rounded" />
               </div>
-              <p class="project-title fw-bolder text-gradient-gold text-uppercase mt-2">
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
                 github repositories list
               </p>
               <p class="project-description text-white">
-                I created Github Repositories list, here github users input their github
-                username to see all their created repositories
+                I created Github Repositories list, here github users input
+                their github username to see all their created repositories
               </p>
               <div class="btn-wrapper">
                 <a href="https://github-repository-list.netlify.app/"
-                  ><button class="btn btn-block live-demo-btn btn-gradient-gold">
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
                     Live Demo
                     <font-awesome-icon icon="fa-solid fa-share" /></button
                 ></a>
-                <a href="https://github.com/Ariyibi-Baseet/github-repository-list"
+                <a
+                  href="https://github.com/Ariyibi-Baseet/github-repository-list"
                   ><button class="btn btn-block github-link-btn ms-2">
                     Github Link
                   </button></a
                 >
               </div>
               <div class="stack-used mt-3">
-                <font-awesome-icon icon="fa-brands fa-html5" class="fs-3 html-logo" />
-                <font-awesome-icon icon="fa-brands fa-css3" class="fs-3 ms-2 css-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
                 <font-awesome-icon
                   icon="fa-brands fa-js"
                   class="fs-3 ms-2 javascript-logo"
@@ -275,7 +343,10 @@
                   icon="fa-brands fa-bootstrap"
                   class="fs-3 ms-2 bootstrap-logo"
                 />
-                <font-awesome-icon icon="fa-brands fa-vuejs" class="fs-3 ms-2 vue-logo" />
+                <font-awesome-icon
+                  icon="fa-brands fa-vuejs"
+                  class="fs-3 ms-2 vue-logo"
+                />
               </div>
             </div>
           </div>
@@ -287,35 +358,53 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h2 class="contact-me text-gradient-gold fw-bold">Connect with me:</h2>
+        <div class="col-12 col-md-12 col-lg-6 mb-3">
+          <h2 class="contact-me text-gradient-gold fw-bold">
+            Connect with me:
+          </h2>
           <p class="text-white">Satisfied with me? Please contact me</p>
           <div class="social-icon-wrapper">
             <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-brands fa-square-twitter" class="fs-3"
+              ><font-awesome-icon
+                icon="fa-brands fa-square-twitter"
+                class="fs-3"
             /></a>
             <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-brands fa-square-whatsapp" class="fs-3 ms-3"
+              ><font-awesome-icon
+                icon="fa-brands fa-square-whatsapp"
+                class="fs-3 ms-3"
             /></a>
             <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-brands fa-square-github" class="fs-3 ms-3"
+              ><font-awesome-icon
+                icon="fa-brands fa-square-github"
+                class="fs-3 ms-3"
             /></a>
             <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-brands fa-linkedin" class="fs-3 ms-3"
+              ><font-awesome-icon
+                icon="fa-brands fa-linkedin"
+                class="fs-3 ms-3"
             /></a>
             <a class="text-white" href="#"
               ><font-awesome-icon icon="fa-solid fa-envelope" class="fs-3 ms-3"
             /></a>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-12 col-lg-6 mb-3">
           <p class="fs-4 text-white">Contact me, let’s make magic together</p>
           <form action="#" class="mt-3">
             <div class="mb-3">
-              <input type="text" class="form-control shadow-none" placeholder="Name:" />
+              <input
+                type="text"
+                class="form-control shadow-none"
+                placeholder="Name:"
+              />
             </div>
             <div class="mb-3">
-              <input type="email" class="form-control shadow-none" placeholder="Email:" />
+              <input
+                type="email"
+                class="form-control shadow-none"
+                placeholder="Email:"
+              />
             </div>
             <div class="mb-3">
               <textarea
@@ -324,7 +413,10 @@
                 placeholder="Message:"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-block text-white w-25 btn-gradient-gold">
+            <button
+              type="submit"
+              class="btn btn-block text-white w-25 btn-gradient-gold"
+            >
               Send
             </button>
           </form>
@@ -339,6 +431,7 @@
 // @ is an alias to /src
 import NavBar from "@/components/Nav.vue";
 import FooterArea from "@/components/Footer.vue";
+import "animate.css";
 
 export default {
   name: "HomeView",
