@@ -1,12 +1,17 @@
 <template>
-  <HomeView />
+  <Preloader />
+  <Home />
 </template>
 
 <script>
-import HomeView from "./views/HomeView.vue";
+import Home from "./views/Home.vue";
+import Preloader from "@/components/Preloader.vue";
 export default {
   name: "App",
-  components: { HomeView },
+  components: {
+    Home,
+    Preloader,
+  },
 };
 </script>
 <style>
@@ -37,6 +42,7 @@ body {
   background-color: var(--dark-color);
   font-family: var(--poppins);
   overflow-x: hidden;
+  position: relative;
 }
 .text-gradient-gold {
   background: hsla(42, 65%, 41%, 1);

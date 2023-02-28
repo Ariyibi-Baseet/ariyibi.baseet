@@ -19,9 +19,11 @@
               <button class="btn btn-block fs-5 get-started-btn">
                 Get Started
               </button>
-              <button class="btn btn-block fs-5 ms-2 dwn-resume-btn">
-                Download my CV/Resume
-              </button>
+              <a :href="myResume" download>
+                <button class="btn btn-block fs-5 ms-2 dwn-resume-btn">
+                  Download my CV/Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -434,19 +436,27 @@ import FooterArea from "@/components/Footer.vue";
 import "animate.css";
 
 export default {
-  name: "HomeView",
-  data() {
-    return {
-      headerImg: "/img/undraw_web_developer_re_h7ie.svg",
-      skillCardImg: "/img/CurveLine.svg",
-      portfolioImg: "/img/portfolio.png",
-      greonImg: "/img/greon.png",
-      GithubRepoListImg: "/img/interface.png",
-    };
-  },
+  name: "Home",
   components: {
     NavBar,
     FooterArea,
+  },
+  setup() {
+    const headerImg = "/img/undraw_web_developer_re_h7ie.svg";
+    const skillCardImg = "/img/CurveLine.svg";
+    const portfolioImg = "/img/portfolio.png";
+    const greonImg = "/img/greon.png";
+    const GithubRepoListImg = "/img/interface.png";
+    const myResume = "/resources/Ariyibi_Baseet_Resume.pdf";
+
+    return {
+      headerImg,
+      skillCardImg,
+      portfolioImg,
+      greonImg,
+      GithubRepoListImg,
+      myResume,
+    };
   },
 };
 </script>
