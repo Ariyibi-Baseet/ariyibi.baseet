@@ -17,7 +17,8 @@ export default {
 <style>
 /* utilities */
 :root {
-  --dark-color: #000036;
+  --dark-color: rgb(0, 0, 54);
+  --transparent: rgba(0, 0, 54, 0.5);
   --secondary-color: #282162;
   --primary-color: #7562e0;
   --grayish: #848191;
@@ -42,7 +43,7 @@ body {
   background-color: var(--dark-color);
   font-family: var(--poppins);
   overflow-x: hidden;
-  position: relative;
+  position: relative !important;
 }
 .text-gradient-gold {
   background: hsla(42, 65%, 41%, 1);

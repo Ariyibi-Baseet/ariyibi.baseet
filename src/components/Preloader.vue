@@ -46,12 +46,16 @@ export default {
   inset: 0;
   width: 100%;
   height: 100vh;
-  z-index: 1031 !important;
-  /* display: none !important; */
+  z-index: 1032;
 }
 .stop-preloader {
-  opacity: 0 !important;
-  transition: visibility 0s, opacity 0.5s linear;
+  animation: 1s stopPreloader forwards;
+}
+@keyframes stopPreloader {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 #svg {
   width: 140px;

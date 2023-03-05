@@ -462,6 +462,9 @@ export default {
 </script>
 
 <style scoped>
+#header {
+  position: relative;
+}
 #header,
 .content-area {
   min-height: 100vh;
