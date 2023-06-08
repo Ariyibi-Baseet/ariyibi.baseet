@@ -165,21 +165,6 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon
-                icon="fa-brands fa-laravel"
-                class="laravel-icon"
-              />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold"
-                >Laravel blade</span
-              >
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -442,12 +427,15 @@ export default {
     FooterArea,
   },
   setup() {
+    // set image path here
     const headerImg = "/img/undraw_web_developer_re_h7ie.svg";
     const skillCardImg = "/img/CurveLine.svg";
     const portfolioImg = "/img/portfolio.png";
     const greonImg = "/img/greon.png";
     const GithubRepoListImg = "/img/interface.png";
-    const myResume = "/resources/Ariyibi_Baseet_Resume.pdf";
+
+    // resume path here
+    const myResume = "/resources/Ariyibi-Baseet-Resume.pdf";
 
     return {
       headerImg,
@@ -512,7 +500,7 @@ export default {
   min-height: 100vh;
 }
 #contact {
-  min-height: 70vh;
+  height: 70vh;
 }
 .about-me,
 .project-head,
