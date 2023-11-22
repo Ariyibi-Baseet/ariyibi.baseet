@@ -31,10 +31,6 @@ export default {
 
     onMounted(() => {
       setTimeout(stopPreloader, 3000);
-      // window.onload = function stopPreloader() {
-      //   isLoading.value = true;
-      // };
-      // window.addEventListener("load", stopPreloader);
     });
     return {
       isLoading,

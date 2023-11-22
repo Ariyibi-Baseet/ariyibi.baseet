@@ -14,6 +14,7 @@ import {
   faTwitterSquare,
   faLinkedin,
   faWhatsappSquare,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faShare,
@@ -34,7 +35,8 @@ library.add(
   faLinkedin,
   faWhatsappSquare,
   faEnvelope,
-  faHeart
+  faHeart,
+  faReact
 );
 
 createApp(App)

@@ -41,133 +41,12 @@
       </div>
     </div>
   </header>
-  <section id="about">
-    <div class="container">
-      <div class="col-12">
-        <h2 class="about-me text-gradient-gold fw-bold">About me:</h2>
-        <p class="text-white">
-          A Technically-astute frontend web developer eager to contribute to
-          team success through smart work, attention to details and excellent
-          organizational skills. Confident in writing scalable code that are
-          well structured, reliable and also user-friendly.
-        </p>
-        <div class="col-12 d-flex align-items-center experience-wrapper">
-          <div class="experience">
-            <p class="text-gradient-gold">2+</p>
-          </div>
-          <p class="text-white">
-            Years of experience. Specialised in building websites and web apps,
-            while ensuring a seamless web experience for end users.
-          </p>
-        </div>
-      </div>
 
-      <!-- skills section -->
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-html5" class="html-icon" />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">html5</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-css3" class="css-icon" />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">css3</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-js" class="js-icon" />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold"
-                >javascript</span
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon icon="fa-brands fa-vuejs" class="vue-icon" />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold">Vuejs</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon
-                icon="fa-brands fa-bootstrap"
-                class="bootstrap-icon"
-              />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold"
-                >Bootstrap</span
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <font-awesome-icon
-                icon="fa-brands fa-git-alt"
-                class="git-icon"
-              />&nbsp;&nbsp;
-              <font-awesome-icon
-                icon="fa-brands fa-github"
-                class="github-icon"
-              />
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold"
-                >git and github</span
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 p-4 skills-card">
-          <div class="skills-wrapper p-4 rounded">
-            <img :src="skillCardImg" alt="" class="bg-skills" />
-            <div class="skills">
-              <!-- <font-awesome-icon icon="fa-brands fa-js" class="js-icon" /> -->
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="64"
-                height="64"
-                viewBox="0 0 24 24"
-                style="fill: rgba(255, 255, 255, 1); transform: ; msfilter: "
-              >
-                <path
-                  d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z"
-                ></path>
-              </svg>
-              <br />
-              <span class="text-uppercase fs-5 text-white fw-bold"
-                >tailwindcss</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- ABOUT SECTION STARTS HERE -->
+  <!-- About component from components folder -->
+  <About />
+  <!-- ENDS HERE -->
+
   <section id="projects" class="pt-5">
     <div class="container">
       <div class="col-12">
@@ -179,7 +58,7 @@
           Developer, here are a few of my live, real-world projects
         </p>
         <!-- skills section -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
             <div class="project-wrapper p-4 rounded">
               <div class="image-area">
@@ -337,102 +216,216 @@
               </div>
             </div>
           </div>
+        </div> -->
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
+            <div class="project-wrapper p-4 rounded">
+              <div class="image-area">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700259249439/eac8730e-5c06-4bb3-bddf-6351956b6b01.png"
+                  alt=""
+                  class="rounded"
+                />
+              </div>
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
+                TIIDELab website
+              </p>
+              <p class="project-description text-white">
+                I was a member of the development team that contributed to
+                building the Tiidelab website, Click on Live demo to know more
+                about TIIDELab
+              </p>
+              <div class="btn-wrapper">
+                <a href="https://tiidelab.com"
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
+                    Live Demo
+                    <font-awesome-icon icon="fa-solid fa-share" /></button
+                ></a>
+                <button class="btn btn-block github-link-btn ms-2" disabled>
+                  Github Link
+                </button>
+              </div>
+              <div class="stack-used mt-3">
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-js"
+                  class="fs-3 ms-2 javascript-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-react"
+                  class="fs-3 ms-2"
+                  style="color: #61dbfb"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  viewBox="0 0 24 24"
+                  style="fill: #61dbfb; transform: ; msfilter;margin-top:-10px; "
+                >
+                  <path
+                    d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
+            <div class="project-wrapper p-4 rounded">
+              <div class="image-area">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700664676687/8c46246e-46cf-4547-a668-f27bcf106ee9.png"
+                  alt=""
+                  class="rounded"
+                  style="background-color: #000"
+                />
+              </div>
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
+                LANDSHOP NG
+              </p>
+              <p class="project-description text-white">
+                I was one of the sole developers who worked on the Landshop
+                website, an estate management platform.
+              </p>
+              <div class="btn-wrapper">
+                <a href="https://www.landshop.ng/"
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
+                    Live Demo
+                    <font-awesome-icon icon="fa-solid fa-share" /></button
+                ></a>
+                <button class="btn btn-block github-link-btn ms-2" disabled>
+                  Github Link
+                </button>
+              </div>
+              <div class="stack-used mt-3">
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-js"
+                  class="fs-3 ms-2 javascript-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-bootstrap"
+                  class="fs-3 ms-2 bootstrap-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-vuejs"
+                  class="fs-3 ms-2 vue-logo"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4 project-card">
+            <div class="project-wrapper p-4 rounded">
+              <div class="image-area">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700664871318/13250d70-e3ab-4de7-a693-5b319b8f62ee.png"
+                  alt=""
+                  class="rounded"
+                  style="background-color: #000"
+                />
+              </div>
+              <p
+                class="project-title fw-bolder text-gradient-gold text-uppercase mt-2"
+              >
+                afro verified
+              </p>
+              <p class="project-description text-white">
+                I was opportuned to the part of team that worked on Afro
+                verified an online ticketing platform that keep track of your
+                event
+              </p>
+              <div class="btn-wrapper">
+                <a href="https://avf-frontend.vercel.app/"
+                  ><button
+                    class="btn btn-block live-demo-btn btn-gradient-gold"
+                  >
+                    Live Demo
+                    <font-awesome-icon icon="fa-solid fa-share" /></button
+                ></a>
+                <button class="btn btn-block github-link-btn ms-2" disabled>
+                  Github Link
+                </button>
+              </div>
+              <div class="stack-used mt-3">
+                <font-awesome-icon
+                  icon="fa-brands fa-html5"
+                  class="fs-3 html-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-css3"
+                  class="fs-3 ms-2 css-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-js"
+                  class="fs-3 ms-2 javascript-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-bootstrap"
+                  class="fs-3 ms-2 bootstrap-logo"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-vuejs"
+                  class="fs-3 ms-2 vue-logo"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 mb-3">
-          <h2 class="contact-me text-gradient-gold fw-bold">
-            Connect with me:
-          </h2>
-          <p class="text-white">Satisfied with me? Please contact me</p>
-          <div class="social-icon-wrapper">
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-twitter"
-                class="fs-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-whatsapp"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-github"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-linkedin"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-solid fa-envelope" class="fs-3 ms-3"
-            /></a>
-          </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 mb-3">
-          <p class="fs-4 text-white">Contact me, let’s make magic together</p>
-          <form action="#" class="mt-3">
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control shadow-none"
-                placeholder="Name:"
-              />
-            </div>
-            <div class="mb-3">
-              <input
-                type="email"
-                class="form-control shadow-none"
-                placeholder="Email:"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control shadow-none"
-                rows="3"
-                placeholder="Message:"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="btn btn-block text-white w-25 btn-gradient-gold"
-            >
-              Send
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- CONTACT SECTION STARTS HERE -->
+  <!-- Contact component from components folder -->
+  <Contact />
+  <!-- ENDS HERE -->
+
   <FooterArea />
 </template>
 
 <script>
-// @ is an alias to /src
 import NavBar from "@/components/Nav.vue";
+import About from "@/components/About.vue";
+import Contact from "@/components/Contact.vue";
 import FooterArea from "@/components/Footer.vue";
+
 import "animate.css";
 
 export default {
   name: "Home",
   components: {
     NavBar,
+    About,
+    Contact,
     FooterArea,
   },
   setup() {
     // set image path here
     const headerImg = "/img/undraw_web_developer_re_h7ie.svg";
     const skillCardImg = "/img/CurveLine.svg";
-    const portfolioImg = "/img/portfolio.png";
-    const greonImg = "/img/greon.png";
-    const GithubRepoListImg = "/img/interface.png";
 
     // resume path here
     const myResume = "/resources/Ariyibi-Baseet-Resume.pdf";
@@ -440,9 +433,6 @@ export default {
     return {
       headerImg,
       skillCardImg,
-      portfolioImg,
-      greonImg,
-      GithubRepoListImg,
       myResume,
     };
   },
@@ -502,7 +492,7 @@ export default {
 #contact {
   height: 70vh;
 }
-.about-me,
+/* .about-me,
 .project-head,
 .contact-me {
   font-family: var(--playfair);
@@ -516,10 +506,10 @@ export default {
   font-family: var(--playfair);
   font-weight: 700;
 }
-/* .skills-card,
+.skills-card,
 .skills-wrapper {
   border: 2px solid white;
-} */
+}
 .skills-wrapper {
   background-color: var(--grayish);
   position: relative;
@@ -557,7 +547,7 @@ export default {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-}
+} */
 
 .html-icon,
 .css-icon,
@@ -576,7 +566,10 @@ export default {
 }
 .image-area > img {
   width: 100%;
-  min-height: 200px;
+  height: 200px;
+  background-color: #fff;
+  /* object-fit: cover; */
+  /* position:; */
 }
 .live-demo-btn,
 .github-link-btn {
