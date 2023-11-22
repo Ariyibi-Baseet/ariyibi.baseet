@@ -16,9 +16,12 @@
               for end-users.
             </p>
             <div class="button-group">
-              <button class="btn btn-block fs-5 get-started-btn">
-                Get Started
-              </button>
+              <a href="#about">
+                <button class="btn btn-block fs-5 get-started-btn">
+                  Get Started
+                </button>
+              </a>
+
               <a :href="myResume" download>
                 <button class="btn btn-block fs-5 ms-2 dwn-resume-btn">
                   Download my CV/Resume

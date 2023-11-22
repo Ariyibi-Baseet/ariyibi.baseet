@@ -8,29 +8,20 @@
           </h2>
           <p class="text-white">Satisfied with me? Please contact me</p>
           <div class="social-icon-wrapper">
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-twitter"
-                class="fs-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-whatsapp"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-square-github"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon
-                icon="fa-brands fa-linkedin"
-                class="fs-3 ms-3"
-            /></a>
-            <a class="text-white" href="#"
-              ><font-awesome-icon icon="fa-solid fa-envelope" class="fs-3 ms-3"
-            /></a>
+            <a href="https://twitter.com/ariyibibaseet_" target="_blank">
+              <i class="bi bi-twitter text-white fs-3"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/ariyibi-baseet/"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin text-white fs-3 ms-3"></i>
+            </a>
+
+            <a href="https://github.com/Ariyibi-Baseet" target="_blank">
+              <i class="bi bi-github text-white fs-3 ms-3"></i>
+            </a>
           </div>
         </div>
         <div class="col-12 col-md-12 col-lg-6 mb-3">
