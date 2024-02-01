@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "FooterArea",
+  name: "FooterComp",
   setup() {
     const developersMail = "mailto:ariyibi.baseet@gmail.com";
     const currentDate = new Date();

@@ -29,7 +29,7 @@
 <script>
 import SkillCards from "./SkillCards.vue";
 export default {
-  name: "About",
+  name: "AboutComp",
   components: { SkillCards },
   setup() {
     return {};
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+#about {
+  min-height: 100vh;
+}
 .about-me {
   font-family: var(--playfair);
   letter-spacing: 2px;

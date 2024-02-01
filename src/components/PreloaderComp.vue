@@ -21,7 +21,7 @@
 import "animate.css";
 import { onMounted, ref } from "vue";
 export default {
-  name: "Preloader",
+  name: "PreloaderComp",
   setup() {
     let isLoading = ref(false);
 

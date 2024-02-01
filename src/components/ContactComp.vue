@@ -63,14 +63,27 @@
 
 <script>
 export default {
-  name: "ContactArea",
+  name: "ContactComp",
   setup() {},
 };
 </script>
 
 <style scoped>
+#contact {
+  height: 70vh;
+}
 .contact-me {
   font-family: var(--playfair);
   letter-spacing: 2px;
+}
+.form-control {
+  background-color: var(--grayish-white);
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+}
+::placeholder {
+  color: gray;
 }
 </style>
